@@ -15,6 +15,7 @@ end
 
 def match(array)
   array.keep_if do |string|
+    #keep_if is a method that removes anything false and keep only elements that are true
     #binding.pry
 
     name.split("").sort == string.split("").sort
